@@ -1,0 +1,38 @@
+{
+  "name": "claude-code-mech-hooks",
+  "version": "1.0.0",
+  "description": "Drop-in Claude Code hooks generator and notification utility (~/.claude/settings.json) with mechanical switch acoustic cues and statusline templates.",
+  "type": "module",
+  "main": "./index.js",
+  "bin": {
+    "claude-mech-hooks": "./bin/cli.js"
+  },
+  "files": [
+    "index.js",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techkayacodes/claude-code-mech-hooks.git"
+  },
+  "keywords": [
+    "claude-code",
+    "claude",
+    "hooks",
+    "notifications",
+    "mechanical-keyboard",
+    "developer-tools",
+    "cli"
+  ],
+  "author": "Kemal Codes (@techkayacodes) <https://www.keyboardcheatcodes.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/techkayacodes/claude-code-mech-hooks/issues"
+  },
+  "homepage": "https://github.com/techkayacodes/claude-code-mech-hooks#readme"
+}
